@@ -83,6 +83,6 @@ This project is under the MIT license. See the file [LICENSE](LICENSE) for more 
 
 <br/>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2404308a-820b-42eb-931f-1fb09406df4e/deploy-status)](https://app.netlify.com/sites/trabalho-grafos/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/443ea1b7-4d13-4f1e-8f2e-cc5923f1387d/deploy-status)](https://app.netlify.com/sites/trabalho-grafos/deploys)
 
   </div>
