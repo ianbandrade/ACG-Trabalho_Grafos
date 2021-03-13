@@ -54,7 +54,7 @@ From the return of the function, this data is sent to a function that uses the K
 
    [Website](trabalho-grafos.netlify.app)
 
-2. Create a inputable file
+2. Create an inputable file
 
    **You must have use .txt and following the format below**
 
