@@ -52,7 +52,7 @@ From the return of the function, this data is sent to a function that uses the K
 
 1. Access the Website
 
-   [Website](trabalho-grafos.netlify.app)
+   [Website](https://trabalho-grafos.netlify.app/)
 
 2. Create an inputable file
 
