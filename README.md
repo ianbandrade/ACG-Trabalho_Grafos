@@ -38,7 +38,7 @@ From the data structures, a complete graph was generated, in which the vertices 
 
 - Return the vector with the list of edges.
 
-From the return of the function, this data is sent to a function that uses the Kruskal algorithm, to generate the minimum tree. Kruskal's algorithm was chosen because it would be better adapted to the data structures already obtained. After returning from the tree, the number of teachers minus 1 unit is removed to separate groups between teachers. Thus obtaining the groups that have less dissimilarity.
+From the return of the function, this data is sent to a function that uses the Kruskal algorithm, to generate the minimum tree. Kruskal's algorithm was chosen because it would be better adapted to the data structures already obtained. After returning from the tree, the number of teachers minus 1 unit is removed to separate groups between teachers. Thus obtaining the groups that have less dissimilarity
 
 ## Techs
 
@@ -54,7 +54,7 @@ From the return of the function, this data is sent to a function that uses the K
 
    [Website](trabalho-grafos.netlify.app)
 
-2. Create a file input
+2. Create a inputable file
 
    **You must have use .txt and following the format below**
 
