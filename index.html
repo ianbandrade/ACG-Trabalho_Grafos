@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" />
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
-  <script defer src="script.js"></script>
-  <title>Trabalho de Grafos</title>
-</head>
-<body>
-  <header id="header">
-    <h1 id="title">Trabalho de Grafos</h1>
-  </header>
-  <main id="main">
-    <section id="container"></section>
-  </main>
-  <footer id="footer">
-    <form id="form">
-      <section class="form-section">
-        <label for="teachers">Quantidade de professores</label>
-      </section>
-      <section class="form-section">
-        <input type="number" id="teachers" name="teachers" min="1" value="1">
-      </section>
-      <section class="form-section">
-        <input type="file" id="file1" name="file1" accept="text/plain" required>
-        <label for="file1" class="input-file">Estudantes</label>
-      </section>
-      <section class="form-section">
-        <input type="file" id="file2" name="file2" accept="text/plain" required>
-        <label for="file2" class="input-file">Matriz de dissimilaridade</label>
-      </section>
-      <section class="form-section">
-        <button type="submit">Enviar</button>
-      </section>
-    </form>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Final Project: Graphs</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="title">Final Project: Graphs</h1>
+    </header>
+    <main id="main">
+      <section id="container"></section>
+    </main>
+    <footer id="footer">
+      <form id="form">
+        <section class="form-section">
+          <label for="teachers">Teachers amount</label>
+        </section>
+        <section class="form-section">
+          <input
+            type="number"
+            id="teachers"
+            name="teachers"
+            min="1"
+            value="1"
+          />
+        </section>
+        <section class="form-section">
+          <input
+            type="file"
+            id="file1"
+            name="file1"
+            accept="text/plain"
+            required
+          />
+          <label for="file1" class="input-file">Students</label>
+        </section>
+        <section class="form-section">
+          <input
+            type="file"
+            id="file2"
+            name="file2"
+            accept="text/plain"
+            required
+          />
+          <label for="file2" class="input-file">Dissimilarity Matrix</label>
+        </section>
+        <section class="form-section">
+          <button type="submit">Build</button>
+        </section>
+      </form>
+    </footer>
+  </body>
 </html>

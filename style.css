@@ -1,6 +1,7 @@
 :root {
   font-family: sans-serif;
   height: 100vh;
+  background-color: #eceff4;
 }
 
 body {
@@ -8,17 +9,18 @@ body {
   margin: 0;
 }
 
-#header, #footer {
+#header,
+#footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightskyblue;
+  background-color: #4c566a;
   box-sizing: border-box;
-  padding: 16px;
+  padding: 20px;
 }
 
 #header {
-  height: 100px;
+  height: 50px;
 }
 
 #footer {
@@ -29,11 +31,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 350px);
+  height: calc(100vh - 300px);
 }
 
 #title {
-  color: #fff;
+  color: #d8dee9;
 }
 
 #container {
@@ -46,7 +48,15 @@ body {
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
-  width: 300px
+  width: 250px;
+}
+
+input {
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+
+  transition: all 0.5s;
 }
 
 .form-section {
@@ -55,31 +65,55 @@ body {
   align-items: stretch;
 }
 
+.form-section > label {
+  color: #d8dee9;
+}
+
 input[type="file"] {
   display: none;
 }
 
 input[type="file"]:invalid + label {
-  border-color: lightcoral;
+  border-color: #bf616a;
 }
 
 input[type="file"]:valid + label {
-  border-color: lightgreen;
+  border-color: #a3be8c;
 }
 
 form:invalid button[type="submit"] {
-  background-color: #ccc;
-  border-color: #bbb;
+  background-color: #4c566a;
+  border-color: #b48ead;
 }
 
-.input-file, button {
+*:focus {
+  outline: none;
+  border: 5px solid #8fbcbb;
+}
+
+.input-file,
+button {
   display: inline-block;
-  background-color: #fff;
+  background-color: #4c566a;
   font-size: 16px;
-  border: 2px solid #eee;
-  border-radius: 4px;
+  border: 5px solid #88c0d0;
+  color: #d8dee9;
+  border-radius: 15px;
   padding: 6px 12px;
   cursor: pointer;
   text-align: center;
   width: 100%;
+
+  transition: all 0.5s;
+}
+
+.input-file:hover,
+form:invalid button[type="submit"]:hover,
+button:hover {
+  background-color: #2e3440;
+  color: #d8dee9;
+}
+
+button:active {
+  transform: translateY(2px);
 }

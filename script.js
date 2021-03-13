@@ -20,7 +20,7 @@ async function getFiles(event) {
 
   const graphNodes = students.map(({ id, area }) => ({
     id,
-    label: `Estudante: ${id}\nÁrea: ${area}`,
+    label: `Student: ${id}\nArea: ${area}`,
   }));
 
   const graphEdges = tree
